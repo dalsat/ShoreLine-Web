@@ -1,0 +1,14 @@
+{
+	"category" : "ShoreLine-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"traces" ],
+	"name" : "SlDataSource",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"fields" : "TommasoDalSasso 6/10/2015 15:01",
+		"with:" : "TommasoDalSasso 6/8/2015 19:32",
+		"with:title:" : "TommasoDalSasso 6/10/2015 17:42",
+		"with:title:root:" : "TommasoDalSasso 6/10/2015 17:42" },
+	"instance" : {
+		"renderContentOn:" : "TommasoDalSasso 6/8/2015 18:31",
+		"renderHeaderOn:" : "TommasoDalSasso 6/8/2015 18:23",
+		"renderStackTrace:on:" : "TommasoDalSasso 6/8/2015 18:23",
+		"renderStackTraceActions:on:" : "TommasoDalSasso 6/8/2015 18:23",
+		"renderStackTracesOn:" : "TommasoDalSasso 6/10/2015 14:11",
+		"renderTableOn:" : "TommasoDalSasso 6/10/2015 13:35",
+		"renderTitleOn:" : "TommasoDalSasso 6/15/2015 00:37",
+		"root:" : "TommasoDalSasso 6/9/2015 00:13",
+		"title" : "TommasoDalSasso 6/8/2015 18:31",
+		"title:" : "TommasoDalSasso 6/8/2015 18:31",
+		"traces" : "TommasoDalSasso 6/8/2015 18:31",
+		"traces:" : "TommasoDalSasso 6/8/2015 18:31",
+		"viewStackTrace:" : "TommasoDalSasso 6/9/2015 00:15" } }

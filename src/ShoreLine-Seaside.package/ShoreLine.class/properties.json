@@ -1,0 +1,15 @@
+{
+	"category" : "ShoreLine-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"active" ],
+	"name" : "ShoreLine",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

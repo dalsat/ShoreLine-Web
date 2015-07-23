@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"tag" : "TommasoDalSasso 6/4/2015 16:45" },
+	"instance" : {
+		"addTraces:on:" : "TommasoDalSasso 6/15/2015 00:44",
+		"children" : "TommasoDalSasso 6/8/2015 18:24",
+		"initialize" : "TommasoDalSasso 6/17/2015 10:32",
+		"initializeCurrentDate" : "TommasoDalSasso 6/17/2015 10:32",
+		"loadAnotherDay" : "TommasoDalSasso 6/10/2015 14:15",
+		"loadAnotherDayOn:" : "TommasoDalSasso 6/10/2015 14:19",
+		"loadChunkFrom:to:" : "TommasoDalSasso 6/8/2015 19:35",
+		"loadFrom:to:" : "TommasoDalSasso 6/8/2015 19:36",
+		"renderContentOn:" : "TommasoDalSasso 6/17/2015 10:30",
+		"renderControlsOn:" : "TommasoDalSasso 6/8/2015 18:33",
+		"renderLoadButtonOn:" : "TommasoDalSasso 6/15/2015 23:45",
+		"renderStackTracesOn:" : "TommasoDalSasso 6/8/2015 23:42" } }

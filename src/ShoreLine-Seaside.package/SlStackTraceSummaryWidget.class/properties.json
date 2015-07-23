@@ -1,0 +1,16 @@
+{
+	"category" : "ShoreLine-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"timespan",
+		"numberOfTraces",
+		"numberOfUsers" ],
+	"name" : "SlStackTraceSummaryWidget",
+	"pools" : [
+		 ],
+	"super" : "SlWidget",
+	"type" : "normal" }

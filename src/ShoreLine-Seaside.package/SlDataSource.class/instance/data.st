@@ -1,0 +1,4 @@
+queries
+data
+
+	^ SlData uniqueInstance
