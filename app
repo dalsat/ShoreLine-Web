@@ -72,7 +72,7 @@ function start() {
     fi
     echo $pid_file
     echo $vm $image start.st
-    nohup $vm $image start.st 2>&1 >/dev/null
+    nohup $vm $image start.st 2>&1 >/dev/null &
     echo $! >$pid_file
 }
 
