@@ -59,6 +59,7 @@ function install() {
 
 function clean() {
     read -p "Delete the current Pharo environment? " -n 1 -r
+    echo
 
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         rm -fr Pharo.image PharoDebug.log Pharo.changes pharo.pid #play-cache package-cache play-stash
