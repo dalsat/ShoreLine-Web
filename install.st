@@ -34,7 +34,7 @@ Metacello new
 "Loading ShoreLine Seaside"
 Gofer it
   repository: gitRepository;
-  package: 'ShoreLine-Seaside';
+  package: 'ShoreLine-Web';
   load.
 
 FileStream stdout cr; nextPutAll: 'Done.'; cr.
