@@ -13,9 +13,10 @@ Usage: $0 <command>
     pid file will be '${script_home}/pharo.pid'.
 
 Commands:
-    get      download the stable pharo image
+    get      download the stable pharo image.
     install  run install.sh on the image and then quit.
-    start    run the image with start.st in background
+    clean    delete the Pharo image and the related files
+    start    run the image with start.st in background.
     stop     stop the server.
     deploy   deploy to the server using the `deploy.yml` ansible recipe
     pid      print the process id
@@ -33,7 +34,7 @@ command=$1
 image="$script_home/pharo.image"
 pid_file=${2:-"$script_home/pharo.pid"}
 
-echo $pid_file
+# echo $pid_file
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     vm=pharo-vm-nox
@@ -54,6 +55,14 @@ function deploy() {
 function install() {
     echo $vm $image install.st
     $vm $image install.st
+}
+
+function clean() {
+    read -p "Delete the current Pharo environment? " -n 1 -r
+
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        rm -fr Pharo.image PharoDebug.log Pharo.changes pharo.pid #play-cache package-cache play-stash
+    fi
 }
 
 function start() {
@@ -112,6 +121,9 @@ case $command in
         ;;
     install)
         install
+        ;;
+    clean)
+        clean
         ;;
     start)
         start
