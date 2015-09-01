@@ -1,8 +1,9 @@
 {
 	"class" : {
+		"initialize" : "TommasoDalSasso 7/28/2015 18:13",
 		"path" : "TommasoDalSasso 6/4/2015 15:43",
 		"port" : "TommasoDalSasso 6/14/2015 02:05",
-		"register" : "TommasoDalSasso 6/7/2015 01:25",
+		"register" : "TommasoDalSasso 9/1/2015 12:05",
 		"start" : "TommasoDalSasso 6/14/2015 02:05",
 		"stop" : "TommasoDalSasso 6/14/2015 02:06",
 		"unregister" : "TommasoDalSasso 6/4/2015 16:17",

@@ -2,5 +2,5 @@ initialization
 initializeDefault
 
 	^ self basicNew initialize
-		load: self filepath;
+		"load: self filepath;"
 		yourself

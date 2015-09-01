@@ -15,7 +15,7 @@ Gofer it
 	configuration;
 	load.
 
-(ConfigurationOfShoreLine project version: #bleedingEdge) load: 'ShoreLine-Model'.
+(ConfigurationOfShoreLine project version: #bleedingEdge) load: 'ShoreLine-Data'.
 
 "Loading Seaside"
 Metacello new
@@ -38,8 +38,5 @@ Gofer it
   load.
 
 FileStream stdout cr; nextPutAll: 'Done.'; cr.
-
-"Registering the application"
-"ShoreLine register."
 
 Smalltalk snapshot: true andQuit: true.

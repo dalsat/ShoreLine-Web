@@ -4,5 +4,5 @@ register
 	
 	(WAAdmin register: self asApplicationAt: self path)
 		addLibrary: JQDevelopmentLibrary;
-		addLibrary: TBSDevelopmentLibrary
-
+		addLibrary: TBSDevelopmentLibrary;
+		exceptionHandler: WAWalkbackErrorHandler
