@@ -1,0 +1,4 @@
+accessing
+data
+
+	^ SlDataWebAdapter default

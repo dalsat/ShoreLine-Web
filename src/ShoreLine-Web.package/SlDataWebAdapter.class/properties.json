@@ -1,0 +1,14 @@
+{
+	"category" : "ShoreLine-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SlDataWebAdapter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

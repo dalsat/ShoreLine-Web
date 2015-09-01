@@ -1,0 +1,14 @@
+{
+	"category" : "ShoreLine-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SlWidget",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

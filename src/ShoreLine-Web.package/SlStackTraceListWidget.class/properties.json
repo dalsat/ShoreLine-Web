@@ -1,0 +1,18 @@
+{
+	"category" : "ShoreLine-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"summaryWidget",
+		"stackTraceWidgets",
+		"currentDate",
+		"listId",
+		"loadId" ],
+	"name" : "SlStackTraceListWidget",
+	"pools" : [
+		 ],
+	"super" : "SlWidget",
+	"type" : "normal" }

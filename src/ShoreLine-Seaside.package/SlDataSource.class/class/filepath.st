@@ -1,4 +1,0 @@
-accessing
-filepath
-
-	^ './traces.json'
