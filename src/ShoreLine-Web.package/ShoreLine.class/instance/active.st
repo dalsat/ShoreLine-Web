@@ -1,4 +1,0 @@
-rendering
-active
-
-	^ active
