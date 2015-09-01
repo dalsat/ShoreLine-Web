@@ -31,7 +31,7 @@ script_home=$(dirname $0)
 script_home=$(cd $script_home && pwd)
 
 command=$1
-image="$script_home/pharo.image"
+image="$script_home/Pharo.image"
 pid_file=${2:-"$script_home/pharo.pid"}
 
 # echo $pid_file
