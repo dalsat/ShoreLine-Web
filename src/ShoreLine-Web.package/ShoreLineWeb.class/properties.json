@@ -1,15 +1,14 @@
 {
-	"category" : "ShoreLine-Web",
+	"category" : "ShoreLine-Web-Server",
 	"classinstvars" : [
-		"port" ],
+		"Default" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"children",
-		"active" ],
+		"server" ],
 	"name" : "ShoreLineWeb",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "Object",
 	"type" : "normal" }

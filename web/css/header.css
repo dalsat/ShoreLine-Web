@@ -1,0 +1,45 @@
+/* header.css */
+
+/* logo section */
+.logo {
+
+}
+
+#header .logo {
+    font-size: 40pt;
+}
+
+.shore {
+    color: #D3D3D3;
+	font-weight: 300;
+}
+
+.line {
+    color: #F00;
+    /*font-weight: lighter;*/
+}
+
+#header .list-inline li {
+    margin-right: 1.5em;
+}
+
+/* navbar section */
+#navbar {
+    background: #fefefe;
+    margin-bottom: 0px;
+}
+
+
+/* header section */
+#header {
+    background: #eeb7d3;
+    background: linear-gradient(#f7f7f7, #f6f6f6);
+    height: 130px;
+    line-height: 130px;
+
+    margin-bottom: 2em;
+}
+
+/*#header {
+    background: yellow;
+}*/

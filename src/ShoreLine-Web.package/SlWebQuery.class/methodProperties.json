@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"connectorClass" : "TommasoDalSasso 12/11/2015 00:34",
+		"default" : "TommasoDalSasso 12/10/2015 10:31",
+		"reset" : "TommasoDalSasso 12/11/2015 00:49" },
+	"instance" : {
+		"connector" : "TommasoDalSasso 12/10/2015 10:34",
+		"initialize" : "TommasoDalSasso 12/11/2015 00:50",
+		"list" : "TommasoDalSasso 12/11/2015 00:59",
+		"listWithAuthor:" : "TommasoDalSasso 12/18/2015 23:44",
+		"listWithClass:" : "TommasoDalSasso 12/18/2015 23:44",
+		"listWithMethod:" : "TommasoDalSasso 12/18/2015 23:44",
+		"listWithTopClass:" : "TommasoDalSasso 12/19/2015 00:01",
+		"listWithTopMethod:" : "TommasoDalSasso 12/19/2015 00:01",
+		"summary" : "TommasoDalSasso 12/11/2015 00:42" } }

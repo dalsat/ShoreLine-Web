@@ -1,0 +1,14 @@
+{
+	"category" : "ShoreLine-Web-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"connector" ],
+	"name" : "SlWebQuery",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,5 +1,10 @@
-starting/stopping
-startOn: aNumber
+start/stop
+startOn: port
 	
-	self port: aNumber.
-	^ self start
+	ZnZincStaticServerAdaptor
+		startOn: port
+		andServeFilesFrom: self wwwRoot.
+		
+	^ ZnZincStaticServerAdaptor default server
+		debugMode: true;
+		yourself

@@ -1,12 +1,6 @@
 
 body { background: #fdfdfd; }
 
-.shore {
-    color: #D3D3D3;
-	font-weight: 300;
-}
-
-.line { color: #F00; }
 
 .trace-auto { color: grey; }
 .stacktraces > tbody > tr > td { border-top: 0; }

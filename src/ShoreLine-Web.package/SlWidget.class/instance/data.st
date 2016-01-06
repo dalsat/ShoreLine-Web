@@ -1,4 +1,4 @@
 accessing
 data
 
-	^ SlDataWebAdapter default
+	^ SlWebQuery default

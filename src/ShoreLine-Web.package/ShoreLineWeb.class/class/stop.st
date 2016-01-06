@@ -1,4 +1,4 @@
-starting/stopping
+start/stop
 stop
 	"self stop"
 	

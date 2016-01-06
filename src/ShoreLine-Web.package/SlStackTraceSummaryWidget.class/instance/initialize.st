@@ -5,4 +5,5 @@ initialize
 	
 	timespan := 24 hours.
 	numberOfUsers := 1.
-	numberOfTraces := self data data countInDate: Date today "self data traces size."
+	numberOfTraces := self data summary at: #today
+	"numberOfTraces := self data data countInDate: Date today"

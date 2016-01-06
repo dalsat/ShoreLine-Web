@@ -1,7 +1,7 @@
 rendering
 renderStackTraceActions: aSlStackTrace on: html
 
-	aSlStackTrace auto
+	(aSlStackTrace at: #auto)
 		ifTrue: [ html tbsGlyphIcon iconFlash
 			class: 'trace-auto';
 			title: 'This stack trace was submitted automatically' ]

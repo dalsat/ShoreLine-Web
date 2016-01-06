@@ -1,7 +1,5 @@
-starting/stopping
+start/stop
 start
 	"self start"
 	
-	^ ZnZincStaticServerAdaptor
-		startOn: self port
-		andServeFilesFrom: self wwwRoot
+	^ self startOn: self defaultPort

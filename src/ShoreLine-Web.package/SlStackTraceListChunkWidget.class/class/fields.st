@@ -3,12 +3,12 @@ fields
 
 	^ {
 	"'ip address' -> [ : trace | trace ip ]."
-	"'Date' -> [ : trace | trace date asDate ]."
-	'Time' -> [ : trace | trace date asTime print24 ].
-	'Version' -> [ : trace | (trace version) at: #name ].
+	'Date' -> [ : trace | (trace at: #date) asDate ].
+	'Time' -> [ : trace | (trace at: #date) asDateAndTime asTime print24 ].
+	'Version' -> [ : trace | (trace at: #version) at: #name ].
 	"'Stacktrace' -> [ : trace | trace stacktrace first signature ]."
-	'Class' -> [ : trace | trace stacktrace first targetClass ].
-	'Method' -> [ : trace :html | trace isDnu
-		ifTrue: [ [ html tbsBadge tbsTooltip: 'Does Not Understand' direction: #top; with: 'DNU' ]" ({1})' format: { trace stacktrace first dnuMessage }" ]
-		ifFalse: [ trace stacktrace first targetMethod ] ].
-	'Submitted by' -> [ : trace | trace author ] }
+	'Class' -> [ : trace | trace at: #'top-class' ].
+	'Method' -> [ : trace :html | (trace at: #'top-method') = 'doesNotUnderstand:'
+		ifTrue: [ [ html tbsBadge tbsTooltip: 'Does Not Understand' direction: #top; with: 'DNU' ] ]
+		ifFalse: [ trace at: #'top-method' ] ].
+	'Submitted by' -> [ : trace | trace at: #author ] }

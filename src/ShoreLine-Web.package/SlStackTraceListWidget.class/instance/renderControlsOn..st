@@ -3,8 +3,9 @@ renderControlsOn: html
 
 	html tbsPanel beDefault with: [
 		html tbsPanelBody: [
-			html textInput
-				tbsFormControl;
-				"callback: [ self halt ];"
-				"onChange: (html alert: 'ciao');"
-				placeholder: 'Filters' ] ]
+			html tbsForm: [
+				html textInput
+					tbsFormControl;
+					callback: [ :value | self newPagerWithClass: value ];
+					"onChange: (html alert: 'ciao');"
+					placeholder: 'Filters' ] ] ]

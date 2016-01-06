@@ -1,5 +1,6 @@
-registration
+class initialization
 initialize
 
 	super initialize.
-	self register
+	Smalltalk addToStartUpList: self.
+	Smalltalk addToShutDownList: self.

@@ -1,5 +1,5 @@
 {
-	"category" : "ShoreLine-Web",
+	"category" : "ShoreLine-Web-Widgets",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -8,6 +8,7 @@
 	"instvars" : [
 		"summaryWidget",
 		"stackTraceWidgets",
+		"pager",
 		"currentDate",
 		"listId",
 		"loadId" ],
