@@ -1,7 +1,7 @@
 dependencies
 seaside: spec
 
-	spec project: 'VoyageMongo' with: [
+	spec project: 'Seaside' with: [
 		spec
 			className: 'ConfigurationOfSeaside3';
 			repository: (MCSmalltalkhubRepository

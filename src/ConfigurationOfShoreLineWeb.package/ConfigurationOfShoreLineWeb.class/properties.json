@@ -10,5 +10,5 @@
 	"name" : "ConfigurationOfShoreLineWeb",
 	"pools" : [
 		 ],
-	"super" : "ConfigurationOf",
+	"super" : "BaselineOf",
 	"type" : "normal" }
