@@ -1,4 +1,4 @@
 queries
 listWithMethod: aString
 
-	^ self connector withMethod: aString
+	^ self connector listWithQuery: { #method -> aString }
