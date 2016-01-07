@@ -4,9 +4,6 @@ bootstrap: spec
 	spec project: 'Bootstrap' with: [
 		spec
 			className: 'ConfigurationOfBootstrap';
-			repository: (MCSmalltalkhubRepository
-					owner: 'TorstenBergmann'
-					project: 'Bootstrap')
-				location;
+			repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main';
 			loads: #('default');
 			versionString: #stable ]

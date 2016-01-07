@@ -8,7 +8,7 @@ baseline: spec
 		"dependencies"
 		self seaside: spec.
 		self bootstrap: spec.
+		self shorelineconnector: spec.
 
 		spec
-			package: 'ShoreLine-Model';
-			package: 'ShoreLine-Web' with: [ spec requires: #('ShoreLine-Model' 'Seaside' 'Bootstrap') ] ]
+			package: 'ShoreLine-Web' with: [ spec requires: #('Seaside' 'Bootstrap' 'ShoreLine-Connector') ] ]
