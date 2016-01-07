@@ -3,4 +3,4 @@
 
 FileStream stdout cr; nextPutAll: 'Launching Hello-Pharo'; cr.
 
-ShoreLineWeb startOn: 8080
+"ShoreLineWeb startOn: 8080"

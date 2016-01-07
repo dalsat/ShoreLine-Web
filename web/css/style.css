@@ -1,6 +1,16 @@
 
 body { background: #fdfdfd; }
 
+/*
+Color palette
+
+pharo color: #3297D4;
+darker blue: #0D1116 (opacity: 0.7);
+red: #763930 (opacity: 0.7)
+
+light blue: cfe1f2
+
+*/
 
 .trace-auto { color: grey; }
 .stacktraces > tbody > tr > td { border-top: 0; }
