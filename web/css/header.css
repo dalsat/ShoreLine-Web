@@ -1,5 +1,14 @@
 /* header.css */
 
+/*
+pharo color: #3297D4;
+darker blue: #0D1116 (opacity: 0.7);
+red: #763930 (opacity: 0.7) #E71818
+
+light blue: #cfe1f2
+*/
+
+
 /* logo section */
 .logo {
 
@@ -10,12 +19,14 @@
 }
 
 .shore {
-    color: #D3D3D3;
+    /*color: #D3D3D3;*/
+    color: #3297D4;
 	font-weight: 300;
 }
 
 .line {
-    color: #F00;
+    /*color: #F00;*/
+    color: #E71818;
     /*font-weight: lighter;*/
 }
 
@@ -32,14 +43,25 @@
 
 /* header section */
 #header {
-    background: #eeb7d3;
-    background: linear-gradient(#f7f7f7, #f6f6f6);
+    padding-top: 17px;
+    /*background: #eeb7d3;*/
+    background: #cfe1f2;
+    color: #3297D4;
+    /*background: linear-gradient(#f7f7f7, #f6f6f6);*/
     height: 130px;
     line-height: 130px;
 
     margin-bottom: 2em;
 }
 
+#header a {
+    color: #3297D4;
+}
+
+#navbar {
+    background: #97C3ED;
+    /*opacity: 0.7;*/
+}
 /*#header {
     background: yellow;
 }*/

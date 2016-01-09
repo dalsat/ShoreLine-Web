@@ -5,3 +5,5 @@
 *.pid
 package-cache/
 play-cache/
+
+web/lib
