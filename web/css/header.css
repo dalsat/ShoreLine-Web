@@ -50,7 +50,11 @@ light blue: #cfe1f2
     height: 130px;
     line-height: 130px;
 
-    margin-bottom: 2em;
+    /*margin-bottom: 2em;*/
+
+    z-index: 10;
+    position: relative;
+
 }
 
 #header a {
@@ -61,6 +65,16 @@ light blue: #cfe1f2
     background: #97C3ED;
     /*opacity: 0.7;*/
 }
+
+#stripe {
+    background: #cfe1f2;
+    width: 100%;
+    height: 8px;
+    top: 50px;
+    position: fixed;
+    z-index: 1;
+}
+
 /*#header {
     background: yellow;
 }*/

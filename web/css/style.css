@@ -15,8 +15,8 @@ light blue: cfe1f2
 
 */
 
-#summary-row {
-    background: black;
+.wide-row {
+    background: #f5fbff; /*#eef4f9;*/
 }
 
 .trace-auto { color: grey; }
