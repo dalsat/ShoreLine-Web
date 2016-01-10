@@ -1,7 +1,7 @@
 rendering
 renderNavbarOn: html
 
-	html tbsNavbar beDefault
+	html tbsNavbar beFixedTop
 		id: #navbar;
 		with: [ html tbsContainer: [ html tbsRow: [ html tbsColumn: [
 			html tbsNavbarBrand

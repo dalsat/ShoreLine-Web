@@ -4,16 +4,17 @@
 		"initialize" : "TommasoDalSasso 7/28/2015 18:13",
 		"port" : "TommasoDalSasso 9/1/2015 13:44",
 		"port:" : "TommasoDalSasso 9/1/2015 13:44",
-		"register" : "TommasoDalSasso 9/1/2015 13:43",
+		"register" : "TommasoDalSasso 1/8/2016 17:22",
 		"unregister" : "TommasoDalSasso 9/1/2015 13:45" },
 	"instance" : {
 		"active" : "TommasoDalSasso 6/4/2015 16:47",
 		"active:" : "TommasoDalSasso 6/4/2015 16:47",
 		"children" : "TommasoDalSasso 12/13/2015 01:33",
+		"includeLibs:" : "TommasoDalSasso 1/9/2016 05:09",
 		"initialize" : "TommasoDalSasso 12/13/2015 01:21",
-		"initializeChildren" : "TommasoDalSasso 12/13/2015 01:21",
+		"initializeChildren" : "TommasoDalSasso 1/7/2016 22:49",
 		"renderActiveComponentOn:" : "TommasoDalSasso 6/4/2015 16:47",
-		"renderContentOn:" : "TommasoDalSasso 12/13/2015 01:22",
+		"renderContentOn:" : "TommasoDalSasso 1/9/2016 17:35",
 		"renderLogoOn:" : "TommasoDalSasso 6/7/2015 23:03",
 		"renderNavbarOn:" : "TommasoDalSasso 6/7/2015 23:38",
-		"updateRoot:" : "TommasoDalSasso 6/15/2015 23:46" } }
+		"updateRoot:" : "TommasoDalSasso 1/9/2016 05:08" } }

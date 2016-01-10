@@ -1,4 +1,4 @@
 queries
 listWithAuthor: aString
 
-	^ self connector listWithQuery: { #author -> aString }
+	^ self listWithQuery: { #author -> aString }

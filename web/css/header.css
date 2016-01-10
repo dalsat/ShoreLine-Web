@@ -43,7 +43,6 @@ light blue: #cfe1f2
 
 /* header section */
 #header {
-    padding-top: 17px;
     /*background: #eeb7d3;*/
     background: #cfe1f2;
     color: #3297D4;
@@ -65,3 +64,29 @@ light blue: #cfe1f2
 /*#header {
     background: yellow;
 }*/
+
+
+/* parallax */
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.parallax-layer-base {
+    transform: translateZ(0);
+}
+
+.parallax-layer-back {
+    transform: translateZ(-1px);
+}

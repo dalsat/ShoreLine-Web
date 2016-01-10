@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stackTraceWidgets",
-		"pager",
-		"currentDate",
-		"listId",
-		"loadId" ],
-	"name" : "SlStackTraceListWidget",
+		"summaryWidget",
+		"stackTracesWidget" ],
+	"name" : "SlStackTracePageWidget",
 	"pools" : [
 		 ],
 	"super" : "SlWidget",

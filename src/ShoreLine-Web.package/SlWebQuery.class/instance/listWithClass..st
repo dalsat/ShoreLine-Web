@@ -1,4 +1,4 @@
 queries
 listWithClass: aString
 
-	^ self connector listWithQuery: { #class -> aString }
+	^ self listWithQuery: { #class -> aString }

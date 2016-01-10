@@ -1,4 +1,4 @@
 queries
 listWithTopClass: aString
 
-	^ self connector listWithQuery: { #topclass -> aString }
+	^ self listWithQuery: { #topclass -> aString }
