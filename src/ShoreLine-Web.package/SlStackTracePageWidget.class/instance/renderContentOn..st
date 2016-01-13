@@ -1,9 +1,11 @@
 rendering
 renderContentOn: html
 
-	html div class: 'wide-row'; with: [
+	html div
+		class: 'wide-row';
+		id: 'summary-row';
+		with: [
 		html tbsContainer: [ html tbsRow
-			id: 'summary-row';
 			with: [ html
 				tbsColumn: [ 
 					html div: summaryWidget ]
