@@ -1,14 +1,17 @@
 {
 	"class" : {
-		 },
+		"fields" : "TommasoDalSasso 1/12/2016 10:26" },
 	"instance" : {
-		"addTraces:on:" : "TommasoDalSasso 12/11/2015 01:27",
-		"initialize" : "TommasoDalSasso 1/7/2016 22:54",
-		"initializeCurrentDate" : "TommasoDalSasso 12/11/2015 15:03",
-		"loadMore" : "TommasoDalSasso 12/11/2015 14:23",
-		"loadMoreOn:" : "TommasoDalSasso 12/11/2015 01:00",
-		"newPager" : "TommasoDalSasso 12/19/2015 00:20",
-		"newPagerWithQuery:" : "TommasoDalSasso 1/7/2016 23:34",
-		"renderContentOn:" : "TommasoDalSasso 1/9/2016 05:03",
-		"renderLoadButtonOn:" : "TommasoDalSasso 12/11/2015 11:56",
-		"renderStackTracesOn:" : "TommasoDalSasso 6/8/2015 23:42" } }
+		"addTraces:on:" : "TommasoDalSasso 1/12/2016 11:27",
+		"initialize" : "TommasoDalSasso 1/13/2016 19:08",
+		"loadMore" : "TommasoDalSasso 1/12/2016 11:06",
+		"loadMoreOn:" : "TommasoDalSasso 1/12/2016 12:36",
+		"newPagerWithQuery:" : "TommasoDalSasso 1/12/2016 10:49",
+		"pager" : "TommasoDalSasso 1/12/2016 10:23",
+		"renderActionsFor:on:" : "TommasoDalSasso 1/12/2016 11:19",
+		"renderContentOn:" : "TommasoDalSasso 1/12/2016 12:35",
+		"renderHeaderOn:" : "TommasoDalSasso 1/12/2016 10:26",
+		"renderLoadButtonOn:" : "TommasoDalSasso 1/13/2016 19:09",
+		"renderStackTrace:on:" : "TommasoDalSasso 1/12/2016 11:19",
+		"renderStackTraces:on:" : "TommasoDalSasso 1/12/2016 11:50",
+		"renderTableOn:" : "TommasoDalSasso 1/13/2016 14:52" } }

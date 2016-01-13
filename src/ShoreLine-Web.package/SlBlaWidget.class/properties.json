@@ -6,11 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"clickBlock",
-		"before",
-		"during",
-		"after" ],
-	"name" : "SlCircleButton",
+		"counter" ],
+	"name" : "SlBlaWidget",
 	"pools" : [
 		 ],
 	"super" : "SlWidget",

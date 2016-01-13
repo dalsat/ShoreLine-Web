@@ -2,4 +2,5 @@ rendering
 renderContentOn: html
 
 	self renderNavbarOn: html.
-	self renderHeaderOn: html
+	html div id: #stripe.
+	self renderHeaderOn: html.

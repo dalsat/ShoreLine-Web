@@ -1,18 +1,19 @@
 rendering
 renderContentOn: html
-	| loadScript |
+	| loadScript id |
 
 	id := html nextId.
 	loadScript := (html jQuery ajax script: [ :s |
-				s << (clickBlock value: s).
-				s << ((html jQuery id: id)
-					removeClass: 'loading m-progress';
-					text: before) ]).
+		(clickBlock value: s).
+		s << ((html jQuery id: id)
+			removeClass: 'loading m-progress';
+			text: before) ]).
+		clickBlock.
 
 	html document addLoadScript: loadScript.
 	
 	html tbsColumn: [
-	html tbsButton
+	html button
 		id: id;
 		class: 'load-button center-block';
 		onClick: (

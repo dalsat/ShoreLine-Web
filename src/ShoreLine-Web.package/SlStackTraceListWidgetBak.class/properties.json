@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"clickBlock",
-		"before",
-		"during",
-		"after" ],
-	"name" : "SlCircleButton",
+		"stackTraceWidgets",
+		"pager",
+		"currentDate",
+		"listId",
+		"loadId" ],
+	"name" : "SlStackTraceListWidgetBak",
 	"pools" : [
 		 ],
 	"super" : "SlWidget",

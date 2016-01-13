@@ -2,7 +2,7 @@ data
 loadMore
 	| data |
 	
-	data := self pager data.
+	data := pager data.
 	pager next.
-
+			
 	^ data at: #stacktraces

@@ -1,9 +1,6 @@
 data
 addTraces: aSlStackTraceCollection on: html
-
-	table inspect.
-
-	"| newWidget |
+	| newWidget |
 
 	newWidget := (SlStackTraceListChunkWidget
 		with: aSlStackTraceCollection
@@ -15,4 +12,4 @@ addTraces: aSlStackTraceCollection on: html
 		root: self).
 	stackTraceWidgets add: newWidget.
 	
-	^ ((html jQuery id: listId) append: newWidget)."
+	^ ((html jQuery id: listId) append: newWidget).

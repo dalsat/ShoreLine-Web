@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTraces:on:" : "TommasoDalSasso 1/12/2016 10:08",
+		"initialize" : "TommasoDalSasso 1/12/2016 10:08",
+		"initializeCurrentDate" : "TommasoDalSasso 1/12/2016 10:08",
+		"loadMore" : "TommasoDalSasso 1/12/2016 10:08",
+		"loadMoreOn:" : "TommasoDalSasso 1/12/2016 10:08",
+		"newPager" : "TommasoDalSasso 1/12/2016 10:08",
+		"newPagerWithQuery:" : "TommasoDalSasso 1/12/2016 10:08",
+		"renderContentOn:" : "TommasoDalSasso 1/12/2016 10:08",
+		"renderLoadButtonOn:" : "TommasoDalSasso 1/12/2016 10:08",
+		"renderStackTracesOn:" : "TommasoDalSasso 1/12/2016 10:08" } }

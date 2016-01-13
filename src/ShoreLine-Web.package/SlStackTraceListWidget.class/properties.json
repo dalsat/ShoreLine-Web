@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stackTraceWidgets",
 		"pager",
-		"currentDate",
+		"date",
+		"tableId",
 		"listId",
-		"loadId" ],
+		"loadId",
+		"testCounter" ],
 	"name" : "SlStackTraceListWidget",
 	"pools" : [
 		 ],

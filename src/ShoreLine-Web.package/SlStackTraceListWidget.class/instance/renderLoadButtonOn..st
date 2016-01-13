@@ -1,9 +1,9 @@
 rendering
 renderLoadButtonOn: html
-
+	
 	html render: (SlCircleButton new
-		click: [ :s | self loadMoreOn: s ];
-"		before: 'Load More';
-		during: 'Loading...';
-		after: 'after';
-"		yourself)
+		click:  [ :s | s << (html jQuery id: tableId)
+				append: [ :r | self loadMoreOn: r ] ];
+		before: 'Load More';
+		yourself)
+	

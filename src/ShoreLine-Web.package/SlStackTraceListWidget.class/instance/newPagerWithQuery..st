@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newPagerWithQuery: aKeyedColection
 
-	pager := self data listWithQuery: aKeyedColection
+	^ self data listWithQuery: aKeyedColection
