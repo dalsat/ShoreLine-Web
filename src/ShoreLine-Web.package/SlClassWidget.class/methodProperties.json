@@ -1,5 +1,8 @@
 {
 	"class" : {
-		"tag" : "TommasoDalSasso 6/7/2015 23:12" },
+		"tag" : "TommasoDalSasso 6/7/2015 23:12",
+		"withStackTrace:" : "TommasoDalSasso 1/14/2016 01:25" },
 	"instance" : {
-		"renderContentOn:" : "TommasoDalSasso 6/7/2015 23:09" } }
+		"renderContentOn:" : "TommasoDalSasso 1/14/2016 01:29",
+		"stacktrace" : "TommasoDalSasso 1/14/2016 01:24",
+		"stacktrace:" : "TommasoDalSasso 1/14/2016 01:24" } }

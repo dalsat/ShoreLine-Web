@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"counter" ],
-	"name" : "SlBlaWidget",
+		 ],
+	"name" : "SlFilterItemWidget",
 	"pools" : [
 		 ],
 	"super" : "SlWidget",

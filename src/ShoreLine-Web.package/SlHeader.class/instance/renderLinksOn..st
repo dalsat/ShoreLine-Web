@@ -4,8 +4,15 @@ renderLinksOn: html
 	html unorderedList
 		class: 'list-inline';
 		with: [
-			#(Link1 Link2 Link3) do: [ :e |
-				html listItem: [
-					html anchor
-						url: e;
-						with: e ] ] ]
+			html listItem: [
+				html anchor
+					url: '';
+					with: 'Map' ].
+			html listItem: [
+				html anchor
+					url: '';
+					with: 'Link 2' ].
+			html listItem: [
+				html anchor
+					url: '';
+					with: 'Link 3' ] ]

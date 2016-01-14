@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "TommasoDalSasso 12/11/2015 00:41",
-		"renderContentOn:" : "TommasoDalSasso 1/8/2016 17:56" } }
+		"initialize" : "TommasoDalSasso 1/14/2016 00:41",
+		"pharo4On:" : "TommasoDalSasso 1/14/2016 00:59",
+		"renderContentOn:" : "TommasoDalSasso 1/14/2016 00:33" } }
