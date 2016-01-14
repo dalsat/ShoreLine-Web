@@ -1,0 +1,4 @@
+accessing
+filterQuery
+
+	^ filterQueryHolder value

@@ -1,0 +1,14 @@
+{
+	"category" : "ShoreLine-Web-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filterQueryHolder" ],
+	"name" : "SlFilterQuery",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

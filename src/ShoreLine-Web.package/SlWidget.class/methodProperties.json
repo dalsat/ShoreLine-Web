@@ -2,4 +2,8 @@
 	"class" : {
 		"tag" : "TommasoDalSasso 6/4/2015 16:45" },
 	"instance" : {
-		"data" : "TommasoDalSasso 12/11/2015 00:37" } }
+		"data" : "TommasoDalSasso 12/11/2015 00:37",
+		"filterChanged" : "TommasoDalSasso 1/14/2016 14:16",
+		"filterQuery" : "TommasoDalSasso 1/14/2016 14:52",
+		"initialize" : "TommasoDalSasso 1/14/2016 14:15",
+		"registerChangeFilter" : "TommasoDalSasso 1/14/2016 14:52" } }

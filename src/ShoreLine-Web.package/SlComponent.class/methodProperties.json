@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"appName" : "TommasoDalSasso 1/14/2016 23:45",
+		"enabled" : "TommasoDalSasso 1/15/2016 00:10",
+		"initialize" : "TommasoDalSasso 1/14/2016 23:45",
+		"register" : "TommasoDalSasso 1/15/2016 00:11",
+		"unregister" : "TommasoDalSasso 1/14/2016 23:53",
+		"url" : "TommasoDalSasso 1/14/2016 23:52" },
+	"instance" : {
+		"active" : "TommasoDalSasso 1/14/2016 23:44",
+		"active:" : "TommasoDalSasso 1/14/2016 23:44",
+		"children" : "TommasoDalSasso 1/14/2016 23:44",
+		"includeLibs:" : "TommasoDalSasso 1/14/2016 23:59",
+		"initialize" : "TommasoDalSasso 1/15/2016 00:26",
+		"initializeChildren" : "TommasoDalSasso 1/14/2016 23:44",
+		"updateRoot:" : "TommasoDalSasso 1/15/2016 00:00" } }

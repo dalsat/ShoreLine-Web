@@ -6,6 +6,6 @@ renderControlsOn: html
 			html tbsForm: [
 				html textInput
 					tbsFormControl;
-					callback: [ :value | self newPagerWithQuery: { #topclass -> value } ];
+					callback: self filterCallback;
 					placeholder: 'Filters' ] ].
 		self renderFiltersOn: html ]

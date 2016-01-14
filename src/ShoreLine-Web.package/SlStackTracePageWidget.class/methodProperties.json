@@ -2,7 +2,8 @@
 	"class" : {
 		"tag" : "TommasoDalSasso 1/7/2016 22:48" },
 	"instance" : {
-		"initialize" : "TommasoDalSasso 1/13/2016 14:33",
-		"renderContentOn:" : "TommasoDalSasso 1/13/2016 19:26",
-		"renderControlsOn:" : "TommasoDalSasso 1/14/2016 01:07",
+		"filterCallback" : "TommasoDalSasso 1/14/2016 12:24",
+		"initialize" : "TommasoDalSasso 1/14/2016 13:06",
+		"renderContentOn:" : "TommasoDalSasso 1/14/2016 13:05",
+		"renderControlsOn:" : "TommasoDalSasso 1/14/2016 12:22",
 		"renderFiltersOn:" : "TommasoDalSasso 1/14/2016 01:10" } }

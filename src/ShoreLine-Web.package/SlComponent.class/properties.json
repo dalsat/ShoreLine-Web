@@ -1,0 +1,16 @@
+{
+	"category" : "ShoreLine-Web-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"active",
+		"header" ],
+	"name" : "SlComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

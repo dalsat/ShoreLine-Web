@@ -14,7 +14,7 @@ renderContentOn: html
 	html tbsContainer: [	html tbsRow: [
 		html tbsColumn: [
 			html tbsRow: [ html
-				tbsColumn: [ self renderControlsOn: html ]
+				tbsColumn: [ html render: filterWidget ]
 				mediumSize: 12 ].
 			html tbsRow: [ html
 				tbsColumn: stackTracesWidget

@@ -1,0 +1,14 @@
+{
+	"category" : "ShoreLine-Web-Session",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filterQuery" ],
+	"name" : "SlSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

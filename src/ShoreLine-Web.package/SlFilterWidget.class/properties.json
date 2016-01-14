@@ -1,0 +1,14 @@
+{
+	"category" : "ShoreLine-Web-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SlFilterWidget",
+	"pools" : [
+		 ],
+	"super" : "SlWidget",
+	"type" : "normal" }

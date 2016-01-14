@@ -10,5 +10,5 @@
 	"name" : "SlWebQuery",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WAObject",
 	"type" : "normal" }

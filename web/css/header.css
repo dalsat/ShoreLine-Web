@@ -84,6 +84,14 @@ light blue: #cfe1f2
     z-index: 1;
 }
 
+.nav ul li.active {
+    background: #cfe1f2;
+}
+
+/*a:hover {
+    background: #cfe1f2;
+}*/
+
 /*#header {
     background: yellow;
 }*/

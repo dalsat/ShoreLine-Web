@@ -1,4 +1,4 @@
 accessing
 pager
 
-	^ pager ifNil: [ pager := self newPagerWithQuery: { } ]
+	^ pager ifNil: [ self newPager ]

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"decodeQuery:" : "TommasoDalSasso 1/14/2016 16:08",
+		"encodeQuery:" : "TommasoDalSasso 1/14/2016 16:13" },
+	"instance" : {
+		"asDictionary" : "TommasoDalSasso 1/14/2016 14:56",
+		"at:put:" : "TommasoDalSasso 1/14/2016 14:44",
+		"filterQuery" : "TommasoDalSasso 1/14/2016 14:37",
+		"fromString:" : "TommasoDalSasso 1/14/2016 16:18",
+		"initialize" : "TommasoDalSasso 1/14/2016 14:45",
+		"newQuery" : "TommasoDalSasso 1/14/2016 14:39",
+		"printString" : "TommasoDalSasso 1/14/2016 16:15",
+		"registerChangeFilter:" : "TommasoDalSasso 1/14/2016 14:38" } }
