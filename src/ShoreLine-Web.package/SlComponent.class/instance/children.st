@@ -1,4 +1,4 @@
 accessing
 children
 
-	^ { header }, children asOrderedCollection
+	^ { header }, children

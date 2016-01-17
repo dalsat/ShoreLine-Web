@@ -14,8 +14,17 @@ light blue: #cfe1f2
 
 }
 
-#header .logo {
+#title .logo {
     font-size: 40pt;
+}
+
+#title .page-title {
+    text-shadow: 0 0 1px #35F;
+    font-size: 15pt;
+    color: #335;
+    position: relative;
+    top: 18px;
+    left: -43px;
 }
 
 .shore {
@@ -63,7 +72,7 @@ light blue: #cfe1f2
 
 #navbar {
     background: #97C3ED;
-    /*opacity: 0.7;*/
+    border: none;
 }
 
 #stripe-dark {
@@ -97,7 +106,7 @@ light blue: #cfe1f2
 }*/
 
 
-/* parallax */
+/* PARALLAX */
 
 .parallax {
     perspective: 1px;

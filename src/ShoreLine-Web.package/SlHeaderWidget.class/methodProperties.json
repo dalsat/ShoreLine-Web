@@ -1,13 +1,17 @@
 {
 	"class" : {
-		"activeUrl:" : "TommasoDalSasso 1/15/2016 00:14" },
+		"activeUrl:" : "TommasoDalSasso 1/15/2016 00:14",
+		"activeUrl:title:" : "TommasoDalSasso 1/15/2016 11:32" },
 	"instance" : {
 		"activeUrl:" : "TommasoDalSasso 1/15/2016 00:13",
+		"defaultTitle" : "TommasoDalSasso 1/15/2016 11:34",
 		"initialize" : "TommasoDalSasso 1/15/2016 00:14",
-		"renderContentOn:" : "TommasoDalSasso 1/13/2016 19:13",
-		"renderHeaderOn:" : "TommasoDalSasso 12/13/2015 02:44",
+		"renderContentOn:" : "TommasoDalSasso 1/16/2016 04:04",
+		"renderHeaderOn:" : "TommasoDalSasso 1/16/2016 04:05",
 		"renderLinksOn:" : "TommasoDalSasso 1/14/2016 11:50",
 		"renderLogoOn:" : "TommasoDalSasso 12/13/2015 02:03",
 		"renderNavbarLinksOn:" : "TommasoDalSasso 1/15/2016 00:40",
 		"renderNavbarOn:" : "TommasoDalSasso 1/15/2016 00:31",
+		"renderTitleOn:" : "TommasoDalSasso 1/15/2016 13:42",
+		"title:" : "TommasoDalSasso 1/15/2016 11:33",
 		"updateRoot:" : "TommasoDalSasso 12/13/2015 01:32" } }

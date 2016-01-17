@@ -9,7 +9,7 @@ renderTableOn: html
 					html tableRow: [ self renderHeaderOn: html ] ].
 				html tableBody
 					id: (tableId := html nextId);
-					with: [ "self loadMoreOn: html" ] ] ]
+					with: [ self renderStackTracesOn: html ] ] ]
 
 		"traces
 				ifEmpty: [ html tbsPanelBody

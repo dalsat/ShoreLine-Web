@@ -9,7 +9,8 @@
 		"clickBlock",
 		"before",
 		"during",
-		"after" ],
+		"after",
+		"trigger" ],
 	"name" : "SlCircleButton",
 	"pools" : [
 		 ],

@@ -10,7 +10,7 @@ renderContentOn: html
 			text: before) ]).
 		clickBlock.
 
-	html document addLoadScript: loadScript.
+	trigger ifTrue: [ html document addLoadScript: loadScript ].
 	
 	html tbsColumn: [
 	html button

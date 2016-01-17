@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 viewStackTrace: aSlStackTrace
 
 	self call: (SlClassWidget withStackTrace: aSlStackTrace)

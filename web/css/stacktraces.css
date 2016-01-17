@@ -1,0 +1,4 @@
+
+.trace-auto { color: grey; }
+
+.stacktraces > tbody > tr > td { border-top: 0; }

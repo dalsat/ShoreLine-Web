@@ -19,14 +19,26 @@ light blue: cfe1f2
     background: #f5fbff; /*#eef4f9;*/
 }
 
+.element {
+    box-shadow: 0px 2px 2px #dddddd;
+}
+
+.shadow-light {
+    box-shadow: 0px 1px 1px #f0f0f0;
+}
+
+.shadow-medium {
+    box-shadow: 0px 2px 2px #dddddd;
+}
+
 #summary-row {
     position: relative;
     z-index: 5;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-bottom: 2em;
 }
 
-.trace-auto { color: grey; }
-.stacktraces > tbody > tr > td { border-top: 0; }
 
 .circle, .load-button {
     background-color: #ffffff;
@@ -49,6 +61,11 @@ light blue: cfe1f2
 
 .load-button {
 	position: relative;
+    transition: 1s;
+}
+
+.load-button:hover {
+    background: #aaa;
 }
 
 /*.loading { background: pink; }*/

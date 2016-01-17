@@ -1,2 +1,4 @@
 initialization
 initializeChildren
+
+	^ { }

@@ -1,4 +1,4 @@
-rendering
+accessing
 active: aSlComponent
 
 	active := aSlComponent

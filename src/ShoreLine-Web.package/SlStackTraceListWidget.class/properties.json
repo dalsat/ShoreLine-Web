@@ -1,5 +1,5 @@
 {
-	"category" : "ShoreLine-Web-Widgets",
+	"category" : "ShoreLine-Web-StackTraces",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -8,10 +8,9 @@
 	"instvars" : [
 		"pager",
 		"date",
+		"traces",
 		"tableId",
-		"listId",
-		"loadId",
-		"testCounter" ],
+		"firstRender" ],
 	"name" : "SlStackTraceListWidget",
 	"pools" : [
 		 ],

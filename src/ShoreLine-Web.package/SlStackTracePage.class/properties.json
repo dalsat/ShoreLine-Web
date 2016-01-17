@@ -9,8 +9,8 @@
 		"filterWidget",
 		"summaryWidget",
 		"stackTracesWidget" ],
-	"name" : "SlStackTracePageWidget",
+	"name" : "SlStackTracePage",
 	"pools" : [
 		 ],
-	"super" : "SlWidget",
+	"super" : "SlPageWidget",
 	"type" : "normal" }
