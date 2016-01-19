@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"concreteClass" : "TommasoDalSasso 1/18/2016 23:21",
+		"filePattern" : "TommasoDalSasso 1/18/2016 23:24",
+		"location" : "TommasoDalSasso 1/18/2016 23:15" },
+	"instance" : {
+		"list" : "TommasoDalSasso 1/19/2016 00:21",
+		"load:" : "TommasoDalSasso 1/19/2016 01:00",
+		"load:offset:" : "TommasoDalSasso 1/19/2016 01:02",
+		"loadArticleFrom:" : "TommasoDalSasso 1/18/2016 23:41",
+		"store" : "TommasoDalSasso 1/18/2016 23:16" } }

@@ -1,0 +1,4 @@
+accessing
+concreteClass
+
+	^ self subclassResponsibility 

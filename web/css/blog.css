@@ -7,11 +7,20 @@
     margin-bottom: 2em;
 }
 
-.blog-entry .title {
+article.blog-entry .title {
     border-bottom: 1px solid #dddddd;
     margin-bottom: 1em;
 }
 
-.blog-entry.body {
+article.blog-entry .date {
+    float:right;
+    position: relative;
+    top: -1.5em;
 
+    font-style: italic;
+    color: #555;
+}
+
+article.blog-entry .body {
+    white-space: pre;
 }

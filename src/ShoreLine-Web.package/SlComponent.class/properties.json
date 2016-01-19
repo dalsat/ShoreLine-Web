@@ -8,6 +8,7 @@
 	"instvars" : [
 		"children",
 		"header",
+		"footer",
 		"active" ],
 	"name" : "SlComponent",
 	"pools" : [

@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"body",
-		"date" ],
-	"name" : "SlBlogEntry",
+		 ],
+	"name" : "SlHtmlBlogEntry",
 	"pools" : [
 		 ],
-	"super" : "SlWidget",
+	"super" : "SlBlogEntry",
 	"type" : "normal" }

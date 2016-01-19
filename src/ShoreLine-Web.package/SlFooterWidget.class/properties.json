@@ -1,15 +1,13 @@
 {
-	"category" : "ShoreLine-Web-Blog",
+	"category" : "ShoreLine-Web-Widgets",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"body",
-		"date" ],
-	"name" : "SlBlogEntry",
+		 ],
+	"name" : "SlFooterWidget",
 	"pools" : [
 		 ],
 	"super" : "SlWidget",

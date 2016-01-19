@@ -1,4 +1,4 @@
 accessing
 children
 
-	^ { header }, children
+	^ { header. footer }, children

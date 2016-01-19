@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"posts" ],
+		"posts",
+		"loader",
+		"offset" ],
 	"name" : "SlBlogPage",
 	"pools" : [
 		 ],

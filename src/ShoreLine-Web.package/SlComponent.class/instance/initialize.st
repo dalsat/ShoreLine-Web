@@ -6,5 +6,7 @@ initialize
 	header := SlHeaderWidget
 		activeUrl: self class url
 		title: self title.
+	footer := SlFooterWidget new.
+	
 	children := self initializeChildren.
 	self active: self defaultActive
