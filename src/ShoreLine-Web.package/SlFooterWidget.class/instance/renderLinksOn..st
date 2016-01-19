@@ -5,10 +5,13 @@ renderLinksOn: html
 	html tbsColumn: [ ] mediumSize: 3.
 	html tbsColumn: [ html unorderedList: [
 			html listItem: [ html anchor
+				callback: [ root showPage: #about ];
 				with: 'About' ].
 			html listItem: [ html anchor
+				callback: [ root showPage: #privacy ];
 				with: 'Privacy' ].
 			html listItem: [ html anchor
+				callback: [ root showPage: #contacts ];
 				with: 'Contacts' ] ] ]
 		mediumSize: 4.
 

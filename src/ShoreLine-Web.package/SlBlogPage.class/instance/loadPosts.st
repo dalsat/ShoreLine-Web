@@ -1,4 +1,4 @@
 accessing
 loadPosts
 
-	^ posts := loader load: self class loadLimit offset: offset
+	^ posts := self loader load: self class loadLimit offset: offset

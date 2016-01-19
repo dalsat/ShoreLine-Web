@@ -9,7 +9,8 @@
 		"children",
 		"header",
 		"footer",
-		"active" ],
+		"active",
+		"staticPage" ],
 	"name" : "SlComponent",
 	"pools" : [
 		 ],

@@ -10,5 +10,5 @@
 	"name" : "SlHtmlBlogPostLoader",
 	"pools" : [
 		 ],
-	"super" : "SlArticleLoader",
+	"super" : "SlHtmlArticleLoader",
 	"type" : "normal" }

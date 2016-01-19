@@ -2,10 +2,14 @@
 	"class" : {
 		"concreteClass" : "TommasoDalSasso 1/18/2016 23:21",
 		"filePattern" : "TommasoDalSasso 1/18/2016 23:24",
-		"location" : "TommasoDalSasso 1/18/2016 23:15" },
+		"location" : "TommasoDalSasso 1/18/2016 23:15",
+		"new" : "TommasoDalSasso 1/19/2016 01:33",
+		"reset" : "TommasoDalSasso 1/19/2016 01:33",
+		"uniqueInstance" : "TommasoDalSasso 1/19/2016 01:32" },
 	"instance" : {
 		"list" : "TommasoDalSasso 1/19/2016 00:21",
 		"load:" : "TommasoDalSasso 1/19/2016 01:00",
 		"load:offset:" : "TommasoDalSasso 1/19/2016 01:02",
 		"loadArticleFrom:" : "TommasoDalSasso 1/18/2016 23:41",
+		"loadArticleNamed:" : "TommasoDalSasso 1/19/2016 01:47",
 		"store" : "TommasoDalSasso 1/18/2016 23:16" } }

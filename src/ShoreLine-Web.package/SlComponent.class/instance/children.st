@@ -1,4 +1,4 @@
 accessing
 children
 
-	^ { header. footer }, children
+	^ { header. footer. staticPage }, children

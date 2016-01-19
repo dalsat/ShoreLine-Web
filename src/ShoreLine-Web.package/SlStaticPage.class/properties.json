@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"posts",
-		"offset" ],
-	"name" : "SlBlogPage",
+		"title",
+		"body" ],
+	"name" : "SlStaticPage",
 	"pools" : [
 		 ],
 	"super" : "SlPageWidget",
