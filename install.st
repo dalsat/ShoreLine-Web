@@ -9,7 +9,7 @@ FileStream stdout cr; nextPutAll: 'Installing ShoreLine'; cr.
 
 Metacello new
   baseline: 'ShoreLineWeb';
-  repository: 'filetree://src';
+  repository: 'filetree://mc';
   load.
 
 FileStream stdout cr; nextPutAll: 'Done.'; cr.

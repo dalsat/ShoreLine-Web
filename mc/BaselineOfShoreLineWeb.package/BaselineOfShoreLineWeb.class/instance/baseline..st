@@ -3,8 +3,7 @@ baseline: spec
 	<baseline>
 
 	spec for: #common do: [
-		spec repository: 'src'.
-		
+
 		"dependencies"
 		self seaside: spec.
 		self bootstrap: spec.

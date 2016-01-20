@@ -2,4 +2,4 @@ class initialization
 initialize
 
 	super initialize.
-	self register
+	"self register"
