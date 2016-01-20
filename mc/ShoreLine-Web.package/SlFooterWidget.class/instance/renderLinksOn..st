@@ -21,5 +21,8 @@ renderLinksOn: html
 			with: 'Community' ].
 		html listItem: [ html anchor
 			url: 'https://github.com/ilredeitopi/ShoreLine-Web';
-			with: 'Repository' ] ] ]
+			with: 'Repository' ].
+		html listItem: [ html anchor
+			callback: [ root showPage: #business ];
+			with: 'ShoreLine 4 Business' ] ] ]
 		mediumSize: 5 ]

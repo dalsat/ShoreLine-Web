@@ -39,6 +39,9 @@ light blue: cfe1f2
     margin-bottom: 2em;
 }
 
+.static {
+    margin-bottom: 5em;
+}
 
 .circle, .load-button {
     background-color: #ffffff;

@@ -1,4 +1,6 @@
 rendering
 renderWidgetsOn: html
 
-	html html: body
+	html tbsContainer
+		class: 'static';
+		with: [ html html: body ]
