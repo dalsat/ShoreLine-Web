@@ -4,7 +4,7 @@ updateRoot: anHtmlRoot
 	super updateRoot: anHtmlRoot.
 	anHtmlRoot
 		beHtml5;
-		title: self class appName.
+		title: 'ShoreLine'.
 	
 	self includeLibs: anHtmlRoot.
 	

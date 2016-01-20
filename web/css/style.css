@@ -61,12 +61,12 @@ light blue: cfe1f2
 
 .load-button {
 	position: relative;
-    transition: 1s;
 }
 
-.load-button:hover {
+/*.load-button:hover {
     background: #aaa;
-}
+    transition: 1s;
+}*/
 
 /*.loading { background: pink; }*/
 
