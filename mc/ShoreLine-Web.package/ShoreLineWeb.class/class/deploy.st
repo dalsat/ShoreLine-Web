@@ -6,5 +6,8 @@ deploy
 	WADispatcher default handlers do: [ :each | 
 		WADispatcher default unregister: each ]. 
 
-	"register the shoreline component"
-	WAAdmin register: SlWebComponent asApplicationAt: 'helloworld'
+	WAAdmin applicationDefaults
+		removeParent: WADevelopmentConfiguration instance.
+		
+	"register the shoreline components"
+	{ SlWebComponent. SlBlogComponent } do: [ :eachComponent | eachComponent register ]

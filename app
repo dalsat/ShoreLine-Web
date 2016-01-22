@@ -14,7 +14,7 @@ Usage: $0 <command>
 
 Commands:
     get      download the stable pharo image.
-    install  run install.sh on the image and then quit.
+    install  run install.st on the image and then quit.
     clean    delete the Pharo image and the related files
     start    run the image with start.st in background.
     stop     stop the server.
@@ -50,6 +50,11 @@ function get() {
 
 function deploy() {
     ansible-playbook -i ansible/hosts.ini ansible/deploy.yml
+}
+
+function deploy_local() {
+    echo $vm $image install.st
+    $vm $image deploy.st
 }
 
 function install() {
@@ -133,7 +138,8 @@ case $command in
         stop
         ;;
     deploy)
-        deploy
+        #deploy
+        deploy_local
         ;;
     pid)
         printpid
