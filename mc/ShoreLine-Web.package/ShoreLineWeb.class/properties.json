@@ -1,12 +1,14 @@
 {
 	"category" : "ShoreLine-Web-Server",
 	"classinstvars" : [
-		"Default" ],
+		"Instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"server" ],
+		"port",
+		"debug",
+		"wwwRoot" ],
 	"name" : "ShoreLineWeb",
 	"pools" : [
 		 ],

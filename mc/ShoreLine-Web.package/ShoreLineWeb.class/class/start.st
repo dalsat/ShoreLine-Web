@@ -1,5 +1,5 @@
-start/stop
+accessing
 start
-	"self start"
+	"self stop"
 	
-	^ self startOn: self defaultPort
+	^ self uniqueInstance start

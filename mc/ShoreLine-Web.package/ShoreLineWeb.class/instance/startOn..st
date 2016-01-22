@@ -1,10 +1,10 @@
 start/stop
-startOn: port
+startOn: aNumber
 	
 	ZnZincStaticServerAdaptor
-		startOn: port
+		startOn: aNumber
 		andServeFilesFrom: self wwwRoot.
 		
 	^ ZnZincStaticServerAdaptor default server
-		debugMode: true;
+		debugMode: self debug;
 		yourself

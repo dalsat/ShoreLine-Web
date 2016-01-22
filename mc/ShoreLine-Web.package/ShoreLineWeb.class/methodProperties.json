@@ -1,15 +1,25 @@
 {
 	"class" : {
-		"default" : "TommasoDalSasso 12/13/2015 01:08",
+		"debug:" : "TommasoDalSasso 1/22/2016 12:44",
 		"defaultPort" : "TommasoDalSasso 12/13/2015 01:10",
+		"defaultWwwRoot" : "TommasoDalSasso 1/22/2016 13:51",
 		"deploy" : "TommasoDalSasso 1/22/2016 12:12",
 		"initialize" : "TommasoDalSasso 12/13/2015 01:11",
-		"reset" : "TommasoDalSasso 12/13/2015 01:09",
+		"port:" : "TommasoDalSasso 1/22/2016 12:44",
+		"reset" : "TommasoDalSasso 1/22/2016 12:41",
+		"restart" : "TommasoDalSasso 1/22/2016 12:30",
 		"shutDown:" : "TommasoDalSasso 12/13/2015 01:09",
-		"start" : "TommasoDalSasso 12/13/2015 01:14",
-		"startOn:" : "TommasoDalSasso 12/13/2015 01:14",
+		"start" : "TommasoDalSasso 1/22/2016 13:48",
 		"startUp:" : "TommasoDalSasso 12/13/2015 01:09",
-		"stop" : "TommasoDalSasso 12/13/2015 01:10",
-		"wwwRoot" : "TommasoDalSasso 12/13/2015 01:10" },
+		"stop" : "TommasoDalSasso 1/22/2016 13:48",
+		"uniqueInstance" : "TommasoDalSasso 1/22/2016 12:22" },
 	"instance" : {
-		 } }
+		"debug" : "TommasoDalSasso 1/22/2016 12:28",
+		"debug:" : "TommasoDalSasso 1/22/2016 12:44",
+		"port" : "TommasoDalSasso 1/22/2016 12:26",
+		"port:" : "TommasoDalSasso 1/22/2016 12:44",
+		"start" : "TommasoDalSasso 1/22/2016 12:25",
+		"startOn:" : "TommasoDalSasso 1/22/2016 13:51",
+		"stop" : "TommasoDalSasso 1/22/2016 12:24",
+		"wwwRoot" : "TommasoDalSasso 1/22/2016 13:51",
+		"wwwRoot:" : "TommasoDalSasso 1/22/2016 13:51" } }

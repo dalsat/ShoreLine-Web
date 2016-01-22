@@ -1,5 +1,5 @@
-start/stop
+accessing
 stop
 	"self stop"
 	
-	ZnZincStaticServerAdaptor stop
+	^ self uniqueInstance stop
