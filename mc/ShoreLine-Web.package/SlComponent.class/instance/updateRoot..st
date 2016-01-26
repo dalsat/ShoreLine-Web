@@ -8,7 +8,7 @@ updateRoot: anHtmlRoot
 	
 	self includeLibs: anHtmlRoot.
 	
-	anHtmlRoot stylesheet url: 'css/style.css'.
-	anHtmlRoot stylesheet url: 'css/fonts.css'.
+	anHtmlRoot stylesheet resourceUrl: 'css/style.css'.
+	anHtmlRoot stylesheet resourceUrl: 'css/fonts.css'.
 	"to be moved to its own component"
-	anHtmlRoot stylesheet url: 'css/load-button.css'.
+	anHtmlRoot stylesheet resourceUrl: 'css/load-button.css'.

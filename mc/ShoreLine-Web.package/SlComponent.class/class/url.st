@@ -1,4 +1,4 @@
 accessing
 url
 
-	^ self appName asLowercase
+	^ '' join: self appName asLowercase substrings

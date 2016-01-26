@@ -8,7 +8,8 @@
 	"instvars" : [
 		"port",
 		"debug",
-		"wwwRoot" ],
+		"wwwRoot",
+		"resourceBaseUrl" ],
 	"name" : "ShoreLineWeb",
 	"pools" : [
 		 ],

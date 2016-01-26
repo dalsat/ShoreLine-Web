@@ -1,4 +1,4 @@
 accessing
 appName
 
-	^ 'ShoreLine'
+	^ 'Stack Traces'

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 wwwRoot
 
 	^ wwwRoot ifNil: [ wwwRoot := self class defaultWwwRoot ]
