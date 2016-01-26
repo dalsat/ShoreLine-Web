@@ -1,7 +1,7 @@
 updating
 includeLibs: anHtmlRoot
 
-	anHtmlRoot script url: 'lib/jquery/dist/jquery.min.js'.
+	anHtmlRoot script resourceUrl: 'lib/jquery/dist/jquery.min.js'.
 	
 	anHtmlRoot stylesheet resourceUrl: 'lib/bootstrap/dist/css/bootstrap.min.css'.
 	anHtmlRoot stylesheet resourceUrl: 'lib/bootstrap/dist/css/bootstrap-theme.min.css'.

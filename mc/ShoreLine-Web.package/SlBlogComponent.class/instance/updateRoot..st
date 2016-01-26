@@ -2,4 +2,4 @@ updating
 updateRoot: anHtmlRoot
 	
 	super updateRoot: anHtmlRoot.
-	anHtmlRoot stylesheet url: 'css/blog.css'.
+	anHtmlRoot stylesheet resourceUrl: 'css/blog.css'.

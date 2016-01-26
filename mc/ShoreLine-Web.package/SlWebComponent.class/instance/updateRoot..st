@@ -2,4 +2,4 @@ updating
 updateRoot: anHtmlRoot
 	
 	super updateRoot: anHtmlRoot.
-	anHtmlRoot stylesheet url: 'css/stacktraces.css'.
+	anHtmlRoot stylesheet resourceUrl: 'css/stacktraces.css'.
