@@ -1,14 +1,14 @@
 {
 	"category" : "ShoreLine-Web-Server",
 	"classinstvars" : [
-		"Instance" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TommasoDalSasso 2/10/2016 00:44",
 	"instvars" : [
-		"configuration" ],
-	"name" : "ShoreLineWeb",
+		 ],
+	"name" : "SlConfiguration",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CCConfiguration",
 	"type" : "normal" }

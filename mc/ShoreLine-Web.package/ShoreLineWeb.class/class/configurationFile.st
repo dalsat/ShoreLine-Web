@@ -1,0 +1,4 @@
+configuration
+configurationFile
+
+	^ 'settings.st'

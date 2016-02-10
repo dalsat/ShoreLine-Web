@@ -1,5 +1,5 @@
 start/stop
 start
-	"self start"
 	
-	^ self startOn: self port
+	self updateComponents.
+	^ self startOn: self configuration port

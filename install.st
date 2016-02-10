@@ -2,8 +2,6 @@
   Keep the last line, you don't want to keep the image running, that will be the
   job of start.st
 "
-| gitRepository |
-
 
 FileStream stdout cr; nextPutAll: 'Installing ShoreLine'; cr.
 

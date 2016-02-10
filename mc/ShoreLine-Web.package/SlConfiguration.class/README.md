@@ -1,0 +1,1 @@
+I load and store the configurationsettings for the server.

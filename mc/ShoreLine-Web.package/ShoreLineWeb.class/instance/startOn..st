@@ -3,8 +3,8 @@ startOn: aNumber
 	
 	ZnZincStaticServerAdaptor
 		startOn: aNumber
-		andServeFilesFrom: self wwwRoot.
+		andServeFilesFrom: self configuration wwwRoot.
 		
 	^ ZnZincStaticServerAdaptor default server
-		debugMode: self debug;
+		debugMode: self configuration debug;
 		yourself

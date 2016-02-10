@@ -1,4 +1,0 @@
-configuration
-defaultWwwRoot
-
-	^ 'web'

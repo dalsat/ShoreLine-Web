@@ -1,5 +1,6 @@
 accessing
 start
-	"self stop"
+	"self start"
 	
+	self uniqueInstance reloadConfiguration.
 	^ self uniqueInstance start
