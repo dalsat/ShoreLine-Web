@@ -2,8 +2,7 @@ instance creation
 newFromConfigFile
 	| configFile |
 	
-	configFile := self defaultFilename asFileReference.
+	configFile := self configFile asFileReference.
+	configFile exists ifFalse: [ self writeConfigTemplate ].
 	
-	^ configFile exists
-		ifTrue: [ self newFromFile: configFile ]
-		ifFalse: [ self new ]
+	^ self newFromFile: configFile

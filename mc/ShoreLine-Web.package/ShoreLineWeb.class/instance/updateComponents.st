@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 updateComponents
 
 	SlComponent enabledComponents do: [ :eachComponent |
