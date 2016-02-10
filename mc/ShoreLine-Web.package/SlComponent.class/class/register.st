@@ -4,5 +4,4 @@ register
 	
 	self enabled & self isAbstract not ifTrue: [
 		(WAAdmin register: self asApplicationAt: self url)
-			preferenceAt: #sessionClass put: SlSession
-			"preferenceAt: #resourceBaseUrl put: ShoreLineWeb uniqueInstance resourceBaseUrl" ]
+			preferenceAt: #sessionClass put: SlSession ]

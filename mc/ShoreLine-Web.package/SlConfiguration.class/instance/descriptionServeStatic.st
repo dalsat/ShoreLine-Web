@@ -1,13 +1,13 @@
 description
-descriptionDebug
+descriptionServeStatic
 	<magritteDescription>
 	
 	^ MABooleanDescription new
 		priority: 100;
-		accessor: #debug;
+		accessor: #serveStatic;
 		"propertyAccessor: 'refresh-rate';"
-		label: 'Debug';
-		cocoonDocumentation: 'Sets the server in debug mode.';
+		label: 'Serve Static Contents';
+		cocoonDocumentation: 'Enables the static server of seaside (for development).';
 		cocoonDefaultDocumentation: 'true/false';
 		default: true;
 		yourself

@@ -4,5 +4,5 @@ configTemplate
 	
 	defaultInstance := self new.
 
-	^ OrderedDictionary newFrom: (#(host port serverPath wwwRoot debug) collect: [ :eachProperty |
-		eachProperty -> (defaultInstance perform: eachProperty) ])
+	^ (#(host port serverPath wwwRoot debug serveStatic resourceBaseUrl) collect: [ :eachProperty |
+		eachProperty -> (defaultInstance perform: eachProperty) ]) asDictionary

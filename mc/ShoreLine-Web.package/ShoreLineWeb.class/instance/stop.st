@@ -1,4 +1,4 @@
 start/stop
 stop
 	
-	ZnZincStaticServerAdaptor stop
+	ZnZincServerAdaptor stop
