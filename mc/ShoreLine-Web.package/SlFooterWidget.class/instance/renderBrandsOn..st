@@ -7,4 +7,4 @@ renderBrandsOn: html
 		with: [ html tbsImage
 "			style: 'background: white;';"
 			height: 50;
-			url: 'images/pharo-logo-flat-small.png' ].
+			resourceUrl: 'images/pharo-logo-flat-small.png' ].

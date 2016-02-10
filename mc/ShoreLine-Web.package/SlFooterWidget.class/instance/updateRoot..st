@@ -3,4 +3,4 @@ updateRoot: anHtmlRoot
 
 	super updateRoot: anHtmlRoot.
 	
-	anHtmlRoot stylesheet url: 'css/footer.css'
+	anHtmlRoot stylesheet resourceUrl: 'css/footer.css'
